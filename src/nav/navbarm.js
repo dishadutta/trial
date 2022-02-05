@@ -14,7 +14,7 @@ export default class navbarm extends Component {
                 <div className='col-10'>
                     <div className='row'>
                         <div className='col-2'>
-                            <h4 href='/' style={{color:'#558c89', fontWeight:'bold'}}>ReFier</h4>
+                            <h4 href='/trial' style={{color:'#558c89', fontWeight:'bold'}}>ReFier</h4>
                         </div>
                         <div className='col-4'>
                             {/* <span style={{}} className="nav-item">
@@ -28,8 +28,8 @@ export default class navbarm extends Component {
                             <Dropdown >
                                 <Dropdown.Toggle style={{background: '#000', border:'transparent'}} id="dropdown-basic"><span style={{textAlign:'center', width:'80px'}}>Register</span></Dropdown.Toggle>
                                 <Dropdown.Menu style={{textAlign:'center'}}>
-                                    <Dropdown.Item href='/register-student'>As a Student</Dropdown.Item>
-                                    <Dropdown.Item href='/register-enterprise'>As an Enterprise</Dropdown.Item>
+                                    <Dropdown.Item href='/trial/register-student'>As a Student</Dropdown.Item>
+                                    <Dropdown.Item href='/trial/register-enterprise'>As an Enterprise</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                         </div>

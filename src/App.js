@@ -1,16 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import MainRouter from "./MainRouter";
+import Menu from './Menu';
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter >
+        <Menu/>
         <MainRouter />
-    </HashRouter>
+    </BrowserRouter>
     
   );
 }
 
 export default App;
+
+{/* <HashRouter basename={process.env.PUBLIC_URL}>
+  <MainRouter />
+</HashRouter> */}
