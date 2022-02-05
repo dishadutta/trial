@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import MainRouter from "./MainRouter";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <MainRouter />
-    </BrowserRouter>
+    </HashRouter>
     
   );
 }
