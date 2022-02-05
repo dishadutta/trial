@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3c935caa.css",
+    "main.js": "./static/js/main.d3406df0.js",
+    "static/media/student_bg.png": "./static/media/student_bg.549d3dd80b17b9c8216d.png",
+    "static/media/enterprise_bg.png": "./static/media/enterprise_bg.b50945f23e1a238a33ae.png",
+    "static/media/img_job.jpg": "./static/media/img_job.34b2791e8ff0f51da715.jpg",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.3c935caa.css.map": "./static/css/main.3c935caa.css.map",
+    "main.d3406df0.js.map": "./static/js/main.d3406df0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c935caa.css",
+    "static/js/main.d3406df0.js"
+  ]
+}
