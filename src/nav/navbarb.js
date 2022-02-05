@@ -30,7 +30,7 @@ class Navbarb extends Component {
             </Dropdown.Menu>
             </Dropdown>
             <span className="nav-item">
-            <a className="nav-link active" aria-current="page" href='/jobs'><span style={{color:'black', fontWeight:'bold'}}>Jobs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+            <a className="nav-link active" aria-current="page" href={process.env.PUBLIC_URL+'/jobs'}><span style={{color:'black', fontWeight:'bold'}}>Jobs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
             </span>
             
             {/* <span style={{}} className="nav-item">
@@ -47,8 +47,8 @@ class Navbarb extends Component {
             <Dropdown >
             <Dropdown.Toggle style={{background: '#000', border:'transparent'}} id="dropdown-basic"><span style={{padding:'0 20px 0 20px'}}>Register</span></Dropdown.Toggle>
             <Dropdown.Menu style={{textAlign:'center'}}>
-                <Dropdown.Item href='/register-student'>As a Student</Dropdown.Item>
-                <Dropdown.Item href='/register-enterprise'>As an Enterprise</Dropdown.Item>
+                <Dropdown.Item href={process.env.PUBLIC_URL+'/register-student'}>As a Student</Dropdown.Item>
+                <Dropdown.Item href={process.env.PUBLIC_URL+'/register-enterprise'}>As an Enterprise</Dropdown.Item>
             </Dropdown.Menu>
             </Dropdown>
         </form>
