@@ -9,10 +9,14 @@ const MainRouter = () => (
     <div>
       <Menu />
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL+'/'} component={Listing} />
+        {/* <Route exact path={process.env.PUBLIC_URL+'/'} component={Listing} />
         <Route exact path={process.env.PUBLIC_URL+'/jobs'} component={Listing} />
         <Route exact path={process.env.PUBLIC_URL+'/register-student'} component={Student}/>
-        <Route exact path={process.env.PUBLIC_URL+'/register-enterprise'} component={Enterprise}/>
+        <Route exact path={process.env.PUBLIC_URL+'/register-enterprise'} component={Enterprise}/> */}
+        <Route exact path='/' component={Listing} />
+        <Route exact path='/jobs' component={Listing} />
+        <Route exact path='/register-student' component={Student}/>
+        <Route exact path='/register-enterprise' component={Enterprise}/>
       </Switch>
     </div>
   );
